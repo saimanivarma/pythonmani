@@ -10,7 +10,7 @@ def sums_evens(to_num):
             sum += i
         i+=1
     return sum
-to_num = sys.argv[0]
+to_num = sys.argv[1]
 print(sums_evens(to_num))
 
 
